@@ -1,0 +1,21 @@
+.header-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #f0e5cf;
+
+  .title {
+    flex: 0.8;
+  }
+  .header-elements-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex: 0.2;
+    h3 {
+      margin-right: 10px;
+    }
+  }
+}

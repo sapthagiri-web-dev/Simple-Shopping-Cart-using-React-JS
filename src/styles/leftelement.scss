@@ -1,0 +1,13 @@
+.leftelement-container {
+  display: flex;
+
+  text-align: center;
+  .category-container {
+    width: 20%;
+  }
+  h3 {
+    padding: 5px 0;
+    margin: 8px 5px;
+    border: 1px solid grey;
+  }
+}

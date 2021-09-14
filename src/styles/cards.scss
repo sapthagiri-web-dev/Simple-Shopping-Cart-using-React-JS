@@ -1,0 +1,27 @@
+.cards-container {
+  width: 25%;
+  margin: 5px 15px;
+  padding: 10px 15px;
+  background-color: #f7f6f2;
+  border-radius: 5px;
+
+  box-shadow: 5px 10px rgba(211, 208, 208, 0.479);
+
+  .images {
+    height: 100px;
+    width: 100px;
+  }
+
+  .laptop-title {
+    border: none;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.cards-container:hover {
+  box-shadow: 5px 10px rgba(41, 42, 44, 0.781);
+}

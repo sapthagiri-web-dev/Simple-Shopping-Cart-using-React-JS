@@ -1,0 +1,31 @@
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+.btn-primary {
+  color: white;
+  background: rgba(22, 20, 160, 0.836);
+}
+
+.btn-primary:hover {
+  background: rgba(22, 20, 160, 0.63);
+}
+
+.btn-danger {
+  color: white;
+  background: rgba(219, 24, 11, 0.836);
+}
+
+.btn-danger:hover {
+  background: rgba(219, 24, 11, 0.63);
+}
+
+.btn-category {
+  color: white;
+  background: rgba(236, 156, 8, 0.836);
+}
